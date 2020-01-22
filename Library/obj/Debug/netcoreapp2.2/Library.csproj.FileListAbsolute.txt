@@ -14,8 +14,6 @@
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Library.TagHelpers.input.cache
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Library.TagHelpers.output.cache
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Library.RazorCoreGenerate.cache
-/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Author/Index.g.cshtml.cs
-/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Home/Book/Index.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
@@ -30,3 +28,12 @@
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Library.dll
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Library.pdb
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Library.csproj.CopyComplete
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Create.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Details.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Index.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Edit.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Delete.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Index.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Details.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/AddAuthor.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Models/Delete.g.cshtml.cs
