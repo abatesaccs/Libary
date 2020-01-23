@@ -2976,8 +2976,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Authors/Edit.cshtml",
+      "TargetPath": "Views/Authors/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Books/AddAuthor.cshtml",
       "TargetPath": "Views/Books/AddAuthor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Authors/Delete.cshtml",
+      "TargetPath": "Views/Authors/Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3018,6 +3028,11 @@
     {
       "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Books/Details.cshtml",
       "TargetPath": "Views/Books/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Authors/Create.cshtml",
+      "TargetPath": "Views/Authors/Create.cshtml",
       "FileKind": "mvc"
     },
     {

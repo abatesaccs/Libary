@@ -48,7 +48,7 @@ namespace Library.Controllers
     public ActionResult Edit(int id)
     {   
         var thisBook = _db.Books.FirstOrDefault(books => books.BookId == id);
-        ViewBag.AuthorId = new SelectList(_db.Authors, "AuthorId", "Name");
+        ViewBag.AuthorId = new SelectList(_db.Authors, "AuthorId", "AuthorName");
         return View(thisBook);
     }
     [HttpPost]
@@ -56,7 +56,7 @@ namespace Library.Controllers
     {
         if (AuthorId !=0)
         {
-            _db.AuthorBook.Add(new AuthorBook() {AuthorId= AuthorId, BookId = book.BookId});
+            _db.AuthorBook.Add(new AuthorBook() {AuthorId = AuthorId, BookId = book.BookId});
         }
         _db.Entry(book).State = EntityState.Modified;
         _db.SaveChanges();
@@ -78,7 +78,7 @@ namespace Library.Controllers
     public ActionResult AddAuthor(int id)
     {
         var thisBook = _db.Books.FirstOrDefault(books => books.BookId == id);
-        ViewBag.AuthorId = new SelectList(_db.Authors, "AuthorId", "Name");
+        ViewBag.AuthorId = new SelectList(_db.Authors, "AuthorId", "AuthorName");
         return View(thisBook);
     }
     [HttpPost]
