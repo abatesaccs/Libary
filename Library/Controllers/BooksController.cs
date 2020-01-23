@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Library.Models;
-using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 
 namespace Library.Controllers
@@ -45,12 +45,14 @@ namespace Library.Controllers
             .FirstOrDefault(books => books.BookId == id);
         return View(thisBook);
     }
+
     public ActionResult Edit(int id)
     {   
         var thisBook = _db.Books.FirstOrDefault(books => books.BookId == id);
         ViewBag.AuthorId = new SelectList(_db.Authors, "AuthorId", "AuthorName");
         return View(thisBook);
     }
+
     [HttpPost]
     public ActionResult Edit(Book book, int AuthorId)
     {
@@ -89,5 +91,25 @@ namespace Library.Controllers
         _db.SaveChanges();
         return RedirectToAction("Index");
     }
-  }
+       public ActionResult Search()
+        {   
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Search (string BookName)
+        {   
+            var searchItem = _db.Books.First(books => books.BookName == BookName);
+            // System.Console.WriteLine(BookName);
+            // System.Console.WriteLine(searchItem);
+            return RedirectToAction("SearchDetails", "Books", searchItem);
+        }
+        [ActionName("SearchDetails")]
+        public ActionResult SearchDetails(string BookName)
+        {
+            var searchItems = _db.Books.Where(books => books.BookName == BookName).ToList();
+            System.Console.WriteLine(BookName);
+            System.Console.WriteLine(searchItems);
+            return View("SearchDetails", searchItems);
+        }
+    }
 }

@@ -40,3 +40,5 @@
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Create.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Delete.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Edit.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Search.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/SearchDetails.g.cshtml.cs

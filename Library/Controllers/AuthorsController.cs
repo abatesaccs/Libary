@@ -71,5 +71,20 @@ namespace Library.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+      // public ActionResult Search()
+      // {   
+      //   return View();
+      // }
+      //   [HttpPost]
+      //   public ActionResult Search (string BookName)
+      //   {
+      //       return RedirectToAction("SearchDetails");
+      //   }
+      //   [ActionName("SearchDetails")]
+      //   public ActionResult SearchDetails(string BookName)
+      //   {
+      //       var searchItem = _db.Books.FirstOrDefault(books => books.BookName == BookName);
+      //       return View(searchItem);
+      //   }
   }
 }

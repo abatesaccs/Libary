@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Library.Models.Book
+
+<h4>Search for a book</h4>
+@using (Html.BeginForm("SearchDetails"))
+{
+    @Html.LabelFor(model => model.BookName)
+    @Html.TextBoxFor(model => model.BookName)
+    
+    <input type="submit" value="SearchDetails" />
+}

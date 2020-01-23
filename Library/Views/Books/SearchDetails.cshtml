@@ -1,0 +1,13 @@
+@{
+  Layout = "_Layout";
+}
+@using Library.Models;
+@model List<Library.Models.Book>;
+
+<h2>Book Search</h2>
+<hr />
+
+@foreach (Book book in Model) {
+  @* @Html.DisplayNameFor(model => model.BookName) *@
+  <p>@book.BookName</p>
+}

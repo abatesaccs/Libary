@@ -3051,8 +3051,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Books/SearchDetails.cshtml",
+      "TargetPath": "Views/Books/SearchDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Books/Search.cshtml",
+      "TargetPath": "Views/Books/Search.cshtml",
       "FileKind": "mvc"
     },
     {
