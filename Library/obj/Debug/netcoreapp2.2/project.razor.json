@@ -2961,6 +2961,11 @@
   "RootNamespace": "Library",
   "Documents": [
     {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Account/Register.cshtml",
+      "TargetPath": "Views/Account/Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Books/Create.cshtml",
       "TargetPath": "Views/Books/Create.cshtml",
       "FileKind": "mvc"
@@ -2978,6 +2983,11 @@
     {
       "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Authors/Edit.cshtml",
       "TargetPath": "Views/Authors/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Account/Login.cshtml",
+      "TargetPath": "Views/Account/Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3066,8 +3076,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Models/Delete.cshtml",
-      "TargetPath": "Models/Delete.cshtml",
+      "FilePath": "/Users/Guest/Desktop/Library.Solution/Library/Views/Account/Index.cshtml",
+      "TargetPath": "Views/Account/Index.cshtml",
       "FileKind": "mvc"
     }
   ],

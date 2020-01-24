@@ -36,9 +36,11 @@
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Index.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Details.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/AddAuthor.g.cshtml.cs
-/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Models/Delete.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Create.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Delete.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Authors/Edit.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/Search.g.cshtml.cs
 /Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Books/SearchDetails.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.g.cshtml.cs
+/Users/Guest/Desktop/Library.Solution/Library/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.g.cshtml.cs
